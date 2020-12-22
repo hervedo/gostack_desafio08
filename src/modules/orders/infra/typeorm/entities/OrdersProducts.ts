@@ -33,7 +33,7 @@ class OrdersProducts {
   @Column('decimal')
   price: number;
 
-  @Column('decimal')
+  @Column('int')
   quantity: number;
 
   @CreateDateColumn()
